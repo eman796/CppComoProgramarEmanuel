@@ -1,0 +1,4 @@
+Estas estructuras son dinámicas, las cuales crecen y se reducen cuando ejecutamos el programa
+Listas enlazadas: Son elementos que están alineados en una fila que pueden insertarse y eliminarse a gusto y disgusto
+Pilas: Se insertan y eliminan elementos solo en el extremo superior
+Colas: Es lo mismo que las pilas, nada más que en su parte inferior (Como las colas de reproduccion de Spotify)
