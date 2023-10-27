@@ -1,4 +1,5 @@
-Estas estructuras son dinámicas, las cuales crecen y se reducen cuando ejecutamos el programa
+Estas estructuras son dinámicas, las cuales crecen y se reducen cuando ejecutamos el programa. Estas tienen muchas aplicaciones interesantes
 Listas enlazadas: Son elementos que están alineados en una fila que pueden insertarse y eliminarse a gusto y disgusto
 Pilas: Se insertan y eliminan elementos solo en el extremo superior
-Colas: Es lo mismo que las pilas, nada más que en su parte inferior (Como las colas de reproduccion de Spotify)
+Colas: Es lo mismo que las pilas, nada más que en su parte inferior (Como las colas de reproduccion de Spotify) y se eliminan sus cosos desde su parte inicial
+Arboles binarios: Facilitan el buscar datos y ordenarlos a gran velocidad, eliminar eficientemente datos duplicados , representar directorios del sistema de archivos
