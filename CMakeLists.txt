@@ -1,12 +1,13 @@
-cmake_minimum_required(VERSION 3.26)
-project(CppComoProgramarEmanuel)
+cmake_minimum_required(VERSION 3.0)
 
-set(CMAKE_CXX_STANDARD 14)
+project(TuProyectoC++)
 
-include_directories("C20 - Estructura de datos/C�digo")
+set(CMAKE_CXX_STANDARD 11) # Especifica el estándar de C++ que deseas usar
 
-add_executable(CppComoProgramarEmanuel
-        C2-Introduccion/F1_HelloWorld.cpp
-        "C20 - Estructura de datos/C�digo/Main.cpp"
-        "C20 - Estructura de datos/C�digo/Main.h"
-        main.cpp)
+# Agrega tus archivos fuente aquí
+add_executable()
+
+# Si necesitas incluir bibliotecas adicionales, usa target_link_libraries
+# target_link_libraries(TuEjecutable nombre_de_la_biblioteca)
+add_executable(new_target Mains.cpp
+        Mains.cpp)

@@ -1,0 +1,13 @@
+Para usar estructuras dinámicas de datos se requiere asignar dinámicamente la memoria principal del sistema (RAM), que permite que un programa obtenga más memoria en tiempo de ejecución.
+Una vez no se necesite esta RAm, esta se puede liberar para ser reasignada en un futuro, siendo un limite para asignar memoria la cantidad de memoria física en la computadora.
+Estos límites suelen estaR TAMBIEN OCUPADOS POR otros programas y el propio sistema (A fecha 29 de octubre de 2023 a las 18:40:00, mi ram estaba a 12.9GB de 15.8GB)
+
+Hablando del tema en si, el operador new tiene que recibir como argumento el tipo del objeto a asignar en forma dinámica y devuelve un apuntador a un objeto de este tipo
+Nodo *nuevoPtr = new Nodo( 10 ); //
+Este código crea un nuevo nodo en la memoria dinámica utilizando el operador `new`. El nuevo nodo tendrá un valor de 10 y se asignará a la variable `nuevoPtr`. El operador `new` devuelve un puntero al bloque de memoria recién asignado, que se puede utilizar para acceder a los datos del nodo.
+Asigna "sizeof(Nodo) bytes", ejecuta el constructor de la Variable Nodo y asigna la direccion del nuevo Nodo a nuevoPtr.
+De no haber memoria, new lanzará una clase de excepción, donde el valor de 10 se pasa al contructor de Nodo, que inicializa el miembro de datos del Nodo en 10
+
+delete: Ejecuta un destructor de la variable y deasigna memoria asignada con el new, devolviendose al sistema de manera que se pueda reasignar en un futuro.
+nuevoPtr nunca se borra, sino que se elimina el espacio al que apunta este puntero. De ser que el apuntador tiene valor 0, la instrucción no tiene valor, pero no es un error (Ojo al dato)
+Las siguientes estructuras de datos a ver se crean y mantienen mediante la asignaciónn dinámica de memoria, las clases autorreferenciadas, las plantiillas de clases y las plantillas de funciones

@@ -1,0 +1,7 @@
+# ninja log v5
+7	5595	7203309790130594	CMakeFiles/CppComoProgramarEmanuel.dir/main.cpp.obj	6fb5ef5e5270a953
+1	10405	7203309838106403	CMakeFiles/CppComoProgramarEmanuel.dir/C2-Introduccion/F1_HelloWorld.cpp.obj	a8252f937d576451
+11	163	7203314081603579	CMakeFiles/CppComoProgramarEmanuel.dir/C20_-_Estructura_de_datos/Código/20,3_Asignacion_Dinámica/AsignacionDinámica.cpp.obj	957e95e8bafcdb6c
+2	486	7203382824183119	build.ninja	cc03be407329cdf3
+17	168	7203314081608866	CMakeFiles/CppComoProgramarEmanuel.dir/C20_-_Estructura_de_datos/Código/20,2_Clases_Autorreferenciadas/Main.cpp.obj	afecf87c60ee7b20
+169	540	7203314085257345	CppComoProgramarEmanuel.exe	3e42a2ccb76866c3

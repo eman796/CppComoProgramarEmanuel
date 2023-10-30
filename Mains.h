@@ -1,0 +1,14 @@
+//
+// Created by emanu on 29/10/2023.
+//
+
+#ifndef CPPCOMOPROGRAMAREMANUEL_MAINS_H
+#define CPPCOMOPROGRAMAREMANUEL_MAINS_H
+
+
+class Mains {
+
+};
+
+
+#endif //CPPCOMOPROGRAMAREMANUEL_MAINS_H
